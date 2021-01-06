@@ -3,11 +3,10 @@ double free in XPDF4.02
 
 We found a double free error when using pdfimages-XPDF4.02.
 Here is the information from gdb:
-How to reproduce: pdfimages crash1 /dev/null
-or  pdfimages crash2 /dev/null
+How to reproduce: pdfimages id:000011,sig:06,sync:qsym,src:000726 /dev/null
 
 
-fack@ubuntu:~/下载/crashs/pdfimages$ gdb ./pdfimages 
+gdb ./pdfimages 
 GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
 Copyright (C) 2016 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
