@@ -3,7 +3,8 @@ double free in XPDF4.02
 
 We found a double free error when using pdfimages-XPDF4.02.
 Here is the information from gdb:
-
+How to reproduce: pdfimages crash1 /dev/null
+or  pdfimages crash2 /dev/null
 
 
 fack@ubuntu:~/下载/crashs/pdfimages$ gdb ./pdfimages 
